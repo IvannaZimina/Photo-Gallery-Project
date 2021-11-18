@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Oleo+Script:wght@400;700&display=swap');
+
+::before::after {
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(82, 81, 81);
+}
+
+.hidden {
+    display: none;
+}
+
+.mistake {
+    border: 2px solid red;
+}
+
+.centercontainer {
+    width: 45%;
+    min-height: 350px;
+    margin: 0 auto;
+    margin-top: 3%;
+
+    .loginWindow {
+        margin-left: 50px;
+        padding: 5% 10%;
+
+        .loginUser, .pwdUser {
+
+            i {
+                font-size: 25px;
+            }
+
+            input { 
+                width: 80%;
+                padding: 10px;
+                margin-bottom: 3%;
+                font-size: 30px;
+                border: none;
+                border-bottom: 1px solid grey;
+                font-family: 'Oleo Script', cursive;
+                letter-spacing: 5px;
+            }
+
+        }
+
+        .forgotPwd, .singNewUser {
+            font-size: 20px;
+            text-decoration: none;
+            color: rgb(73, 179, 179);
+            font-weight: 600;
+            font-family: 'Oleo Script', cursive;
+            letter-spacing: 5px;
+        }
+    }
+
+    .loginBtn, .signBtn {
+        margin: 0 auto;
+        margin: 5% 0 5% 0;
+        width: 50%;
+        border: rgb(112, 112, 112);
+        background-color: grey;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: 'Oleo Script', cursive;
+        letter-spacing: 5px;
+    }
+
+    .signWindow {
+        margin-left: 50px;
+        padding: 5% 10%;
+        border: 1px solid rgba(224, 223, 223, 0.712);
+        border-radius: 20px;
+
+        .createLoginUser, .firstName, .secondName, .birthday, .email, .phone, .createPwdUser, .pwdUserRepeat {
+
+            i {
+                font-size: 25px;
+            }
+
+            input { 
+                width: 80%;
+                padding: 10px;
+                margin-bottom: 3%;
+                font-size: 20px;
+                border: none;
+                border-bottom: 1px solid grey;
+                font-family: 'Oleo Script', cursive;
+                letter-spacing: 5px;
+            }
+        }
+
+        .avatar {
+
+            i {
+                font-size: 25px;
+                padding-right: 10px;
+            }
+
+            margin: 5% 0 5% 0;
+        }
+
+        .agreement {
+
+            input {
+                width: 30px;
+                height: 30px;
+                margin-right: 3%;
+                border-radius: 5px;
+            }
+
+            span, a {
+                font-size: 20px;
+                font-family: 'Oleo Script', cursive;
+                letter-spacing: 5px;
+                margin-bottom: 3%;
+            }
+        }
+    }
+
+    .messageDeclare {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Oleo Script', cursive;
+        letter-spacing: 5px;
+        color: rgb(82, 81, 81);
+        text-align: center;
+    }
+}
+
