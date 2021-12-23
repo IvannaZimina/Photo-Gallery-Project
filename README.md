@@ -17,6 +17,9 @@ Create functional options on personal cabinet:
 Create buyers page with select options and making order.
 Connect to WayForPay technology with testing parameters to make payment.
 
+## Environment
+Clone project to your machine. Use npm install to add all dependencies in project and open web-app.
+
 ## View
 
 Sign in page	 
