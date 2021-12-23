@@ -2,7 +2,7 @@
 Create web-app for photographers.
 
 ## Stack
-Node.js, Express.js, EJS, JS native, JWT (access & refresh token), Ajax, localStorage, WayForPay API, Multer for images, MongoDB, Mongoose, NPM, Sass (SCSS), Materialize library.
+Node.js, Express.js, EJS, JS native, JWT (access & refresh token), AJV validation with JSON-schema, Ajax, localStorage, WayForPay API, Multer for images, MongoDB, Mongoose, NPM, Sass (SCSS), Materialize library.
 
 ## Description
 Create Node.js app with Express.js using EJS. Create models of DB: users, albums, orders.
