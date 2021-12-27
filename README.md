@@ -5,24 +5,22 @@ Create web-app for photographers.
 Node.js, Express.js, EJS, JS native, JWT (access & refresh token), AJV validation with JSON-schema, Ajax, localStorage, WayForPay API, Multer for images, MongoDB, Mongoose, NPM, Sass (SCSS), Materialize library.
 
 ## Description
-Create Node.js app with Express.js using EJS. Create models of DB: users, albums, orders.
-Make registration and login form for users. Create access & refresh token for users with adding to user collection.
-Make middleware in routes to check login user by access token to enter to personal page.
-Create view of site using own styles by Sass (SCSS) and materialize library.
-Create functional options on personal cabinet:
-	1) edit personal information;
+There was created Node.js app with Express.js using EJS. There were created models of DB entities: users, albums, orders.
+There were made registration and login forms for users. There were created access & refresh tokens for users with adding them to user DB entity. There was made middleware in routers to check if a user is logged in by access token to enter a personal page.
+There was created a view of web-site using own styles by Sass (SCSS) and Materialize library.
+The personal space contains the following functional options:
+	1) edit personal information on profile page;
 	2) create/delete albums/images in albums, create link for buyers;
 	3) review orders and their status;
-	4) logout of personal cabinet. 
-Create buyers page with select options and making order.
-Connect to WayForPay technology with testing parameters to make payment.
+	4) log out of personal cabinet. 
+There was created a buyer’s page with selection of options and making of order.
+There was configured a connection to WayForPay technology with testing parameters to make payment. 
 
 ## Environment
 Clone project to your machine. Use npm install to add all dependencies in project and open web-app.
 
 ## View
-
-Sign in page	 
+Log in page	 
 ![image](https://user-images.githubusercontent.com/46706194/146981954-391924c0-5d58-4ee4-a7fd-d5bcbdd11c98.png)
 
 Registration page 
