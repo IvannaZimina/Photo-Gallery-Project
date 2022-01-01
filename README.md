@@ -2,19 +2,34 @@
 Create web-app for photographers.
 
 ## Stack
-Node.js, Express.js, EJS, JS native, JWT (access & refresh token), AJV validation with JSON-schema, Ajax, localStorage, WayForPay API, Multer for images, MongoDB, Mongoose, NPM, Sass (SCSS), Materialize library.
+###Backend:
+JavaScript, Node.js, Express.js, REST API, JWT, JSON validation, AJAX, WayForPay API, MongoDB.
+###Libraries:
+Mongoose, AJV, crypto, jsonwebtoken, deep-freeze, multer for images.
+###Frontend:
+JavaScript, EJS, localStorage, Sass (SCSS), Materialize library.
+
 
 ## Description
-There was created Node.js app with Express.js using EJS. There were created models of DB entities: users, albums, orders.
-There were made registration and login forms for users. There were created access & refresh tokens for users with adding them to user DB entity. There was made middleware in routers to check if a user is logged in by access token to enter a personal page.
-There was created a view of web-site using own styles by Sass (SCSS) and Materialize library.
-The personal space contains the following functional options:
-	1) edit personal information on profile page;
-	2) create/delete albums/images in albums, create link for buyers;
-	3) review orders and their status;
-	4) log out of personal cabinet. 
-There was created a buyer’s page with selection of options and making of order.
-There was configured a connection to WayForPay technology with testing parameters to make payment. 
+### Backend
+There was created Node.js app with Express.js using MVC. There were created next modules:
+-	Server module: contain main app file with base configurations of app and connection to DB;
+-	Configuration module: contain configuration of: PORT, WayForPay, deepfreeze;
+-	Model module: created models of DB entities in MongoDB - users, albums, orders;
+-	Controller module: created functions of interaction with the DB entities (CRUD), created access & refresh tokens (JWT) for users using private and public keys, WayForPay configurations using test data;
+-	Routes module: built REST API architecture using POST and GET methods, made middleware to check if a user is logged in by access token to enter a personal page.
+-	Schemas module: create JSON validation scheme for validate the data from front.
+	
+### Frontend
+There were made view of web-site using EJS, localStorage for JWT, own styles by Sass (SCSS) and Materialize library:
+-	registration and login forms for users on separate link;
+-	the personal space contains the following functional options (on separates links):
+1) edit profile: to edit personal information on profile page;
+2) albums: create/delete albums, create link for buyers;
+3) images page in albums: add photos using separate inputs form, delete photos using checkbox form;
+4) orders: review orders and their status;
+5) log out of personal cabinet.
+-	buyer’s page without JWT: using checkbox form and making an order using WayForPay technology with testing parameters to make payment.
 
 ## Environment
 Clone project to your machine. Use npm install to add all dependencies in project and open web-app.
