@@ -2,11 +2,11 @@
 Create web-app for photographers.
 
 ## Stack
-###Backend:
+### Backend:
 JavaScript, Node.js, Express.js, REST API, JWT, JSON validation, AJAX, WayForPay API, MongoDB.
-###Libraries:
+### Libraries:
 Mongoose, AJV, crypto, jsonwebtoken, deep-freeze, multer for images.
-###Frontend:
+### Frontend:
 JavaScript, EJS, localStorage, Sass (SCSS), Materialize library.
 
 
