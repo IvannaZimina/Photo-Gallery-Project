@@ -12,18 +12,18 @@ JavaScript, EJS, localStorage, Sass (SCSS), Materialize library.
 
 ## Description
 ### Backend
-There was created Node.js app with Express.js using MVC. There were created next modules:
--	Server module: contain main app file with base configurations of app and connection to DB;
--	Configuration module: contain configuration of: PORT, WayForPay, deepfreeze;
--	Model module: created models of DB entities in MongoDB - users, albums, orders;
--	Controller module: created functions of interaction with the DB entities (CRUD), created access & refresh tokens (JWT) for users using private and public keys, WayForPay configurations using test data;
+A web-app was created with Node.js application (via express-generator) using MVC. The next modules were created:
+-	Server module: contains main app file with base configurations of application and connection to DB;
+-	Configuration module: contains configuration of PORT, WayForPay, deepfreeze;
+-	Model module: contains models of DB entities in MongoDB - users, albums, orders;
+-	Controller module: functions of interaction with the DB entities (CRUD), access & refresh tokens (JWT) for users using private and public keys, WayForPay configurations using test data;
 -	Routes module: built REST API architecture using POST and GET methods, made middleware to check if a user is logged in by access token to enter a personal page.
--	Schemas module: create JSON validation scheme for validate the data from front.
-	
+-	Schemas module: contains JSON validation schemes for validate the data from front.
+
 ### Frontend
-There were made view of web-site using EJS, localStorage for JWT, own styles by Sass (SCSS) and Materialize library:
--	registration and login forms for users on separate link;
--	the personal space contains the following functional options (on separates links):
+Web-pages generated with EJS template maker, localStorage for JWT, own styles by Sass (SCSS) and Materialize library:
+-	a page with registration and login forms for users on separate link;
+-	a page with the personal space. It contains the following functional options (on separates links):
 1) edit profile: to edit personal information on profile page;
 2) albums: create/delete albums, create link for buyers;
 3) images page in albums: add photos using separate inputs form, delete photos using checkbox form;
